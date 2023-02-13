@@ -1,4 +1,4 @@
-# react-django 블로그 제작 💻
+# 💻 react-django 블로그 제작
 
 [블로그 참조](https://velog.io/@tnstjd120/series/React-Django)
 
