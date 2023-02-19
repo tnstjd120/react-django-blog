@@ -9,11 +9,11 @@
 ## STEP 01 🟢
 Django 개발 환경 세팅 
 
-## STEP 02 🟡
+## STEP 02 🟢
 Django model, views, urls 작업 
 
-## STEP 03 🔴
-React 개발 환경 세팅 및 Django와 연결 
+## STEP 03 🟡
+React/Typescript 개발 환경 세팅 및 Django와 연결 
 
 ## STEP 04 🔴
 React Components 작업 및 디자인 + 퍼블리싱 
