@@ -3,17 +3,17 @@
 import React from 'react';
 import { css } from '@emotion/react';
 
-type HeaderProps = {
-  logoName: string;
-};
-
 const headerStyle = css`
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 50px;
-  background-color: #ddd;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 `;
 
 const logoStyle = css`
@@ -21,12 +21,10 @@ const logoStyle = css`
   font-weight: bold;
 `;
 
-const Header: React.FC<HeaderProps> = ({ logoName }) => {
+const Header: React.FC = () => {
   return (
     <header css={headerStyle}>
-      <h1 css={logoStyle}>{logoName}</h1>
-
-      <nav></nav>
+      <h1 css={logoStyle}>React - Django Blog</h1>
     </header>
   );
 };
