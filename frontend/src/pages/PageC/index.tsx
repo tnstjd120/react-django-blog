@@ -2,7 +2,7 @@
 import React from 'react';
 
 const PageC = () => {
-  return <div>PageC</div>;
+  return <div>This is PageC</div>;
 };
 
 export default PageC;
