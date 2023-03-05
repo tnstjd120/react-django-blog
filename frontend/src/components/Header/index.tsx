@@ -1,25 +1,7 @@
 /** @jsxImportSource @emotion/react */
 
 import React from 'react';
-import { css } from '@emotion/react';
-
-const headerStyle = css`
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 50px;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-`;
-
-const logoStyle = css`
-  font-size: 32px;
-  font-weight: bold;
-`;
+import { headerStyle, logoStyle } from '../../styles/components/Header';
 
 const Header: React.FC = () => {
   return (
