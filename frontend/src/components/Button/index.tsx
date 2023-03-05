@@ -1,9 +1,9 @@
 /** @jsxImportSource @emotion/react */
 
-import { buttonStyles } from '@/styles/components/Button';
+import { buttonStyles } from '../../styles/components/Button';
 import React from 'react';
 
-const Header: React.FC = () => {
+const Button: React.FC = () => {
   return (
     <>
       <button css={buttonStyles}>Toggle</button>
@@ -11,4 +11,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Button;
