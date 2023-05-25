@@ -9,6 +9,7 @@
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "react/no-unknown-property": ["error", { "ignore": ["css"] }],
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "no-undef": "off"
   },
   "settings": {
